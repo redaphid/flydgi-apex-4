@@ -43,4 +43,5 @@ The enumeration tool should be run first to understand your controller's interfa
 
 ## References
 
-See [AGENTS.md](AGENTS.md) for detailed protocol notes and investigation progress.
+- [AGENTS.md](AGENTS.md) — Detailed protocol notes and investigation progress
+- [NEXT_STEPS.md](NEXT_STEPS.md) — Setup for deeper analysis (Wireshark, protocol documentation)

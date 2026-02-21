@@ -39,9 +39,12 @@ The 0xFFA0 and 0xFFEF interfaces are the primary investigation targets.
 - [x] Device enumeration and interface identification
 - [x] Feature report probing capability
 - [x] Packet capture infrastructure
+- [ ] Wireshark setup and USB traffic capture
 - [ ] Protocol reverse engineering (in progress)
 - [ ] Screen upload protocol documentation
 - [ ] Write capability (intentionally deferred)
+
+See [NEXT_STEPS.md](NEXT_STEPS.md) for setup instructions.
 
 ## Usage Pattern
 
