@@ -6,6 +6,12 @@
 #   ./start.sh probe
 #   ./start.sh sniff --duration 120
 
+# Ensure dependencies are installed
+if [ ! -d ".venv" ]; then
+  echo "Installing dependencies..."
+  uv sync --quiet
+fi
+
 TOOL="${1:-enumerate}"
 
 case "$TOOL" in
