@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "computer-use": {
+      "type": "http",
+      "url": "http://localhost:9742/mcp"
+    }
+  }
+}

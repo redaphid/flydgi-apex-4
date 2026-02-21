@@ -1,0 +1,15 @@
+[project]
+name = "flydgi"
+version = "0.1.0"
+description = "HID enumeration and sniffing tools for Flydigi Apex 4 screen protocol"
+requires-python = ">=3.11"
+dependencies = [
+    "hidapi>=0.14.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+python-version = "3.11"
